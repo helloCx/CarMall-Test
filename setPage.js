@@ -8,7 +8,6 @@ async function setPage() {
         slowMo:40
     })
     page = await browser.newPage()
-
     return page;
 }
 
